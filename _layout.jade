@@ -1,0 +1,11 @@
+doctype
+html
+  head
+    != partial("_partial/head")
+    link(rel="stylesheet" href="/main.css")
+  body
+  .container
+    != yield
+    :markdown
+      You can [follow me on Twitter](https://twitter.com/charles_rt) for updates and more like this.
+  != partial("_partial/nav")

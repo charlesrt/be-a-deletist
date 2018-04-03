@@ -4,7 +4,7 @@
 
 [Skip to guide](#guide) | [Skip to navigation](#nav)
 
-With all the negative news Facebook has been getting it was easy to be ignorant about Google. I knew Google tracked me and used that data to advertise to me. I knew that. That's why I'd changed browsers and started using a different search engine. But for some I never thought of that data collection in the same scary light as I did with Facebook. Until I came across a [thread of Twitter](https://twitter.com/iamdylancurran/status/977560174117474304). I won't repeat the content of that here, I'll just go through the steps you should take to check out your data and stop Google tracking you.
+With all the negative news Facebook has been getting it was easy to be ignorant about Google. I knew Google tracked me and used that data to advertise to me. I knew that. That's why I'd changed browsers and started using a different search engine. But for some I never thought of that data collection in the same scary light as I did with Facebook. Until I came across a [thread on Twitter](https://twitter.com/iamdylancurran/status/977560174117474304). I won't repeat the content of that here, I'll just go through the steps you should take to check out your data and stop Google tracking you.
 
 <span id="guide"></span>
 ## See for yourself what data Google has [#](#guide)

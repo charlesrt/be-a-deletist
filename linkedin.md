@@ -12,7 +12,7 @@ LinkedIn is also another one of these companies that hide a ton of privacy permi
 
 If you're a recruiter or someone looking for work then maybe stick with it. If you are neither of those I don't think it holds enough value.
 
-A couple of times I tried sharing some posts in the same way I do on Twitter but hey didn't get the same traction and didn't start the same interesting conversations. Maybe I was doing it wrong, but in the end it as another noisy channel that was just that, noise. It was time to delete.
+A couple of times I tried sharing some posts in the same way I do on Twitter but they didn't get the same traction and didn't start the same interesting conversations. Maybe I was doing it wrong, but in the end it was another noisy channel that was just that: noise. It was time to delete.
 
 If you ever find yourself in a position where you are looking for work, just set a new account up. You could have over a hundred connections in a day if you really wanted.
 

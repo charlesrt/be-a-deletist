@@ -11,6 +11,15 @@ html
 
       *I will update the advice and guides as I discover more to share. Check them out now and make your own informed decision. You can [follow me on Twitter](https://twitter.com/charles_rt) for updates and more like this.*
 
-    iframe(style='height:264px;width:100%;margin:16px auto;', src='https://upscri.be/6814f0?as_embed')
+      Sign up for my newsletter to join the conversations around design, ethics and privacy. Just one email once a month (sometimes less). No spam. No data sharing.
+
+    form(name="subscribe" netlify-honeypot="bot-field" method="POST" netlify)
+      p.hidden
+        label Don’t fill this out if you're human:
+        input(name="bot-field")
+      p
+        label Your email address
+        input(type="text" name="name")
+        button(type="submit") Join
 
   != partial("_partial/nav")

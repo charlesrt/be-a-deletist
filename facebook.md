@@ -36,6 +36,8 @@ We can take measures to become more aware of the problem and make sure our setti
 
 There's rumours that the Cambridge Analytica data was used to target subliminal advertisements that swayed a UK vote to leave the EU and brought Donald Trump into power. I don't know if this is true but it sure is scary.
 
+If you're still not convinced, check out this [Sign up for Facebook](https://signupforfacebook.org) app that brilliantly outlines everything you should have to grant explicit consent to before you can sign up for an account. If you were shown this level of transparency in the first place would you still have signed up?
+
 <span id="data"></span>
 ## Download your data [#](#data)
 

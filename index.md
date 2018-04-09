@@ -1,10 +1,14 @@
-# Delete the excess
+# Deletist
 
-> Advice and guides on how to reduce your digital data footprint, become anonymous, and make more time. This is for the privacy conscious, the minimalists and everyone else.
+noun /dɪˈliːtɪst/
+
+> a person who deletes their data in the quest for anonymity, privacy and minimalism: paving the way for ethical decentralised systems.
+
+*Advice and guides on how to reduce your digital data footprint, become anonymous, and make more time.*
 
 [Skip to navigation](#nav)
 
-## Intro
+## Be a Deletist: Delete the excess
 
 Privacy is becoming a bigger and bigger concern. These days you don't have to look very far to find negative news on the likes of Facebook or Google; two tech giants collecting the most extensive data set ever assembled on human social behaviour for the sole purpose of advertising to us.
 
@@ -12,7 +16,7 @@ People are becoming more conscious of their privacy, who they share data with an
 
 ## Minimal digital me
 
-Recently, I have become increasingly aware of how much of me and my data is online. It feels like every few months there is news of a new data breach where I pause and think, *‘They have my personal data and credit card details’*.
+Recently, I have become increasingly aware of how much of me and my data is online. It feels like every few months there is news of a new data breach where I pause and think, “They have my personal data and credit card details”.
 
 I considered: how many products I'd signed up to, how many companies I'd handed personal data to, how many permissions I'd granted, how many privacy policies I hadn't read. I was no longer ignorant to this social norm. It was time to reduce my digital footprint and take back control of *my* data.
 

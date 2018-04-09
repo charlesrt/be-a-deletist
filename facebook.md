@@ -4,6 +4,8 @@
 
 [Skip to guide](#guide) | [Skip to navigation](#nav)
 
+<hr>
+
 I can't think of a company that has received as much negative news as Facebook has in recent times. The big privacy concern you've probably heard of is the Cambridge Analytica breach.
 
 ## Before that: allow me to rant...
@@ -18,7 +20,7 @@ I can't think of a company that has received as much negative news as Facebook h
 
 *Human interaction is something we all crave, yet we try to medicate this need through an electronic device. It's the device that becomes the friend and we the robot; slaved to its notifying calls.*
 
-## ...anyway, back to the privacy bit.
+## Back to the privacy bit
 
 The Cambridge Analytica story as I understand it: some Facebook users connected with an app. Using your Facebook account to authenticate with other companies stops you having to think about setting up a new account. You simply give the new thing permission to access your Facebook data. Easy. Too easy.
 
@@ -38,8 +40,7 @@ There's rumours that the Cambridge Analytica data was used to target subliminal 
 
 If you're still not convinced, check out this [Sign up for Facebook](https://signupforfacebook.org) app that brilliantly outlines everything you should have to grant explicit consent to before you can sign up for an account. If you were shown this level of transparency in the first place would you still have signed up?
 
-<span id="data"></span>
-## Download your data [#](#data)
+## Download your data
 
 Whether you're ready to leave Facebook or not, I ask, that everyone downloads their Facebook data and has a look at just what they hold on you and then make a decision.
 
@@ -49,8 +50,11 @@ My wife and I enjoyed reading through the first every messages we sent to each o
 
 It's the power of these moments that made Facebook so special at the start. It's these moments they need to focus on again if they want to rebuild trust. Start connecting people in meaningful and memorable ways. Stop feeding the Feed!
 
-<span id="guide"></span>
-## How to download your data? [#](#guide)
+<span id="guide"></span> [Back to top](#top) | [Skip to navigation](#nav)
+
+<hr>
+
+## How to download your data? [#guide](#guide)
 
 1. Login to Facebook using a desktop/laptop as menu options as they aren't accessible easily on mobile devices.
 
@@ -64,8 +68,7 @@ It's the power of these moments that made Facebook so special at the start. It's
 
 6. Enjoy navigating the wealth of knowledge Facebook has on you.
 
-<span id="safer"></span>
-## Be safer on Facebook [#](#safer)
+## Be safer on Facebook
 
 If you're not ready to fully delete Facebook yet, try these steps.
 
@@ -75,31 +78,31 @@ If you're not ready to fully delete Facebook yet, try these steps.
 
 3. Make everything you post private.
 
-  3.1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
+  1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
 
-  3.2. Select **Privacy**.
+  2. Select **Privacy**.
 
-  3.3. Click **Limit the audience for posts I've shared with friends of friends or Public** under Your Activity.
+  3. Click **Limit the audience for posts I've shared with friends of friends or Public** under Your Activity.
 
-  3.4 Click **Limit old posts**.
+  4. Click **Limit old posts**.
 
 4. Stop your profile appearing in Google [and other] search engine results.
 
-  4.1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
+  1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
 
-  4.2. Select **Privacy**.
+  2. Select **Privacy**.
 
-  4.3. Click **Do you want other search engines outside of Facebook to link to your profile?** under Who can look me up.
+  3. Click **Do you want other search engines outside of Facebook to link to your profile?** under Who can look me up.
 
-  4.4 Select **No**.
+  4. Select **No**.
 
 5. Revoke access to any third party apps that current have permission to access your data.
 
-  5.1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
+  1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
 
-  5.2. Select **Apps**.
+  2. Select **Apps**.
 
-  5.3. Remove any apps you either don't recognise or no longer use by clicking the ✖️ on the right.
+  3. Remove any apps you either don't recognise or no longer use by clicking the ✖️ on the right.
 
 6. Check the permissions the Facebook app has on your mobile device. Turn off **Location**, **Microphone**, etc.
 
@@ -107,14 +110,13 @@ If you're not ready to fully delete Facebook yet, try these steps.
 
 8. Deactivate your account for a month and see if you miss it.
 
-  8.1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
+  1. Click the 🔽 more menu icon at the top right of Facebook and select **Settings**.
 
-  8.2. Select **Settings**, **General**, **Manage your account**.
+  2. Select **Settings**, **General**, **Manage your account**.
 
-  8.3. Click **Deactivate your account**. You can reactivate it later if you feel you reached this step too soon.
+  3. Click **Deactivate your account**. You can reactivate it later if you feel you reached this step too soon.
 
-<span id="delete"></span>
-## Ready to permanently delete Facebook? [#](#delete)
+## Ready to permanently delete Facebook?
 
 1. Make sure you've downloaded your data as per previous steps.
 

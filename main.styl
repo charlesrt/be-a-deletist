@@ -1,184 +1,176 @@
-fonts = "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif
-riverside = hsl(#4C6A92)
-nightriver = hsl(#1C2736)
-duskriver = hsl(#384E6B)
-dayriver = hsl(#ADBBCD)
-whitewater = hsl(#F8FAFC)
-sizexlarge = 3rem
-sizelarge = 2rem
-sizemedium = 1.5rem
-sizenormal = 1.25rem
-sizesmall = 1rem
-sizetiny = .5rem
+@font-face
+  font-family 'Anonymous Pro'
+  font-style normal
+  font-weight 400
+  src local('Anonymous Pro Regular'), local('AnonymousProRegular'), url('fonts/AnonymousPro-Regular.ttf') format('truetype')
+
+@font-face
+  font-family 'Anonymous Pro'
+  font-style italic
+  font-weight 400
+  src local('Anonymous Pro Italic'), local('AnonymousProItalic'), url('fonts/AnonymousPro-Italic.ttf') format('truetype')
+
+@font-face
+  font-family 'Anonymous Pro'
+  font-style normal
+  font-weight 700
+  src local('Anonymous Pro Bold'), local('AnonymousProBold'), url('fonts/AnonymousPro-Bold.ttf') format('truetype')
+
+@font-face
+  font-family 'Anonymous Pro'
+  font-style italic
+  font-weight 700
+  src local('Anonymous Pro Bold Italic'), local('AnonymousProBoldItalic'), url('fonts/AnonymousPro-BoldItalic.ttf') format('truetype')
+
+// Config -----------------------------------
+syntax-hue =          220;
+syntax-saturation =   13%;
+syntax-brightness =   18%;
+
+// Monochrome -----------------------------------
+mono-1 = hsl(syntax-hue, 14%, 71%); // default text
+mono-2 = hsl(syntax-hue,  9%, 55%);
+mono-3 = hsl(syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+hue-1 =   hsl(187, 47%, 55%); // <-cyan
+hue-2 =   hsl(207, 82%, 66%); // <-blue
+hue-3 =   hsl(286, 60%, 67%); // <-purple
+hue-4 =   hsl( 95, 38%, 62%); // <-green
+
+hue-5 =   hsl(355, 65%, 65%); // <-red 1
+hue-5-2 = hsl(  5, 48%, 51%); // <-red 2
+
+hue-6 =   hsl( 29, 54%, 61%); // <-orange 1
+hue-6-2 = hsl( 39, 67%, 69%); // <-orange 2
+
+// Base colors -----------------------------------
+syntax-fg =     mono-1;
+syntax-bg =     hsl(syntax-hue, syntax-saturation, syntax-brightness);
+syntax-gutter = darken(syntax-bg, 26%);
+syntax-guide =  hsla(syntax-fg, 15%);
+syntax-accent = hsl(syntax-hue, 100%, 66% )
+
+// Fonts -----------------------------------
+
+stack = 'Anonymous Pro', 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace
+x3 = 3em //64px
+x2 = 2em //32px
+x1 = 1em //16px
+x50 = .5em //8px
+x25 = .25em //4px
+
+html
+  border-top x50 solid syntax-guide
 
 body
-  font: 400 sizenormal / 1.6 fonts
-  color: nightriver
-  background-color: whitewater
-  border-top: 4px solid riverside
-  margin: 0
-  padding: 0 16px
-  text-size-adjust: 100%
-  font-feature-settings: "kern" 1
-  font-kerning: normal
+  font 400 x1 / 1.5 stack
+  color syntax-fg
+  background-color syntax-bg
+  border-top x25 dashed syntax-guide
+  margin x50 0 0 0
+  padding 0 x50
+  text-size-adjust 100%
+  font-feature-settings 'kern' 1
+  font-kerning normal
 
-h1
-  font-weight: 700
-  font-size: sizexlarge
-  line-height: 1
-  margin: 3rem 0
-  text-align: left
-  width: 80%
+h1, h2, h3, h4, h5, h6, p, a
+  font-size x1 !important
+  margin x1 0
 
-h2
-  font-weight: 700
-  font-size: sizelarge
-  margin: 0
+h1, h2, h3, h4, h5, h6
+  color hue-5
+  margin 1x 0 2x 0
 
-h3
-  font-weight: 700
-  font-size: sizemedium
-  margin: 0
+h1:before
+  content '# '
 
-ul
-  margin: 0
-  padding: 0
+h2:before
+  content '## '
 
-p
-  margin: sizemedium 0
+h3:before
+  content '### '
 
-a
-  color: duskriver
-  text-decoration: underline
-  font-weight 700
+h4:before
+  content '#### '
 
-a:hover
-  color: riverside
-  text-decoration: none
+h5:before
+  content '##### '
 
-hr
-  border: none
-  border-top: 4px solid dayriver
-  margin: 8px 0
+h6:before
+  content '###### '
 
 blockquote
-  background: riverside
-  border: 2px solid nightriver
-  color: whitewater
-  font-size: sizenormal
-  font-weight: 400
-  margin: 0
-  padding: 0 sizesmall
-  text-align: left
+  background syntax-gutter
+  color mono-2
+  display inline-block
+  font-style italic
+  :before
+    content '> '
+    margin-left -1.1em
 
-footer
-  font-size: sizesmall
-  font-weight: 400
-  color: whitewater
+  p
+    display inline
 
-footer a
-  background: nightriver
-  color: inherit
-  text-decoration: none
+p
+  margin x1 0
 
-footer a:hover
-  background: whitewater
-  color: nightriver
+a
+  color hue-2
+  :hover
+    color hue-1
+
+strong
+  color hue-6
+  :before, :after
+    content '**'
+
+em
+  color hue-3
+  :before, :after
+    content '*'
+
+ul
+  margin 0
+  padding 0
 
 label
-  font-size sizemedium
   color duskriver
   display block
-  font-weight 700
+  margin 0 0 x25
 
 input
-  width 40%
-  border 2px solid nightriver
-  font-size sizesmall
-  padding sizetiny
+  width 50%
+  background syntax-gutter
+  border none
+  color syntax-fg
+  font-size x1
+  padding x50
 
 button
-  font-size sizesmall
-  background duskriver
-  color whitewater
-  font-weight 700
-  border 2px solid nightriver
-  padding sizetiny sizesmall
-  margin-left -2px
+  background syntax-guide
+  color syntax-fg
+  border none
+  font-size x1
+  padding x50 x1
+  margin-left x1
 
 button:hover
-  background nightriver
+  background hsla(syntax-fg, 30%);
+
+hr
+  border none
+  border-top x25 dashed syntax-guide
+  margin x50 0
 
 .full-width
-  border-top: 2px solid nightriver
-  margin: 1rem -1rem
-  padding: 0 16px 0 16px
-
-nav.full-width
-  background: riverside
-  margin: 1rem -1rem 0 -1rem
-  padding-bottom: 16px
-
-.card-row
-  display: flex
-
-.card
-  flex: 1
-  margin-right: 16px
-
-.card:last-child
-  margin-right: 0
+  background syntax-gutter
+  margin x1 (-1 * x50) 0
+  padding x1 0 x25
 
 .container
-  max-width: 960px
-  margin: 0 auto
-
-.heading-secondary
-  font-size: sizesmall
-  font-weight: 400
-  line-height: 1.5
-  color: riverside
-  display: block
-
-.heading-meta
-  border: 2px solid currentColor
-  display: inline-block
-  font-size: sizesmall
-  font-weight: 700
-  margin-bottom: 0
-  margin-top: 16px
-  padding: 8px
-
-.tile
-  list-style-type: none
-  margin: 16px 16px 0 0
-  background: whitewater
-  border-bottom: 2px solid nightriver
-
-.tile a
-  padding: 16px
-  text-decoration: none
-  background: none
-  color: inherit
-  line-height: 1
-  font-size: sizenormal
-  font-weight: 700
-  display: block
-
-.tile:hover
-  background: nightriver
-
-.tile:hover a span
-  color: dayriver
-
-.tile:hover a
-  color: whitewater
+  max-width 960px
+  margin 0 auto
 
 .hidden
   display none
-
-@media screen and (max-width: 736px)
-
-  .card-row, .card
-    display: inline-block
-    width: 100%

@@ -1,4 +1,4 @@
-# Focussed browsing
+# Focused browsing
 
 > I use a combination of Brave and Firefox Focus.
 

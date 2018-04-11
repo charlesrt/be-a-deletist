@@ -2,7 +2,7 @@
 
 > I deleted my Facebook account. I don't miss it.
 
-[Skip to guide](#guide) | [Skip to navigation](#nav)
+<!-- [Skip to guide](#guide) | [Skip to navigation](#nav)
 
 <hr>
 
@@ -52,9 +52,9 @@ It's the power of these moments that made Facebook so special at the start. It's
 
 <span id="guide"></span> [Back to top](#top) | [Skip to navigation](#nav)
 
-<hr>
+<hr> -->
 
-## How to download your data? [#guide](#guide)
+## How to download your data?
 
 1. Login to Facebook using a desktop/laptop as menu options as they aren't accessible easily on mobile devices.
 
@@ -129,3 +129,5 @@ If you're not ready to fully delete Facebook yet, try these steps.
 5. Reconfirm your password and CAPTCHA.
 
 6. You're done. Have a hug 🤗
+
+[What do you want to delete now?](#nav)

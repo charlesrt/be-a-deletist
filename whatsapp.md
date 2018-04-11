@@ -1,10 +1,10 @@
 # Delete WhatsApp
 
-> Disclosure: I still use WhatsApp but I'm nearly there.
+> Disclosure: I still use WhatsApp but I'm nearly there. This guide is a work in progress.
 
-[Skip to navigation](#nav)
+<!-- [Skip to navigation](#nav)
 
-<hr>
+<hr> -->
 
 ## Note: We cannot delete your account for you at this time
 
@@ -18,4 +18,6 @@ OK. This is a strange one. To delete your WhatsApp account seems straight forwar
 
 That's it. This should be the point where you get a hug — but. WhatsApp have a strange message on their support pages that says *Note: We cannot delete your account for you at this time* 🤔
 
-Why can't that *actually* delete your account? This is odd. I'm trying to find out more. Will update soon.
+Why can't they *actually* delete your account? This is odd. I'm trying to find out more. Will update soon.
+
+[What do you want to delete now?](#nav)

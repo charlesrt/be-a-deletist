@@ -53,18 +53,20 @@ syntax-accent = hsl(syntax-hue, 100%, 66% )
 
 // Fonts -----------------------------------
 
-stack = 'Anonymous Pro', 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace
+headingstack = 'Anonymous Pro', 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace
+stack = 'Alegreya Anti Alpha', 'Avenir Next', Avenir, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif
+
 x3 = 3em //64px
 x2 = 2em //32px
 x1 = 1em //16px
 x50 = .5em //8px
 x25 = .25em //4px
 
-html
-  border-top x50 solid syntax-guide
+// html
+//   border-top x50 solid syntax-guide
 
 body
-  font 400 x1 / 1.5 stack
+  font 400 x1 / 1.6 stack
   color syntax-fg
   background-color syntax-bg
   border-top x25 dashed syntax-guide
@@ -74,13 +76,15 @@ body
   font-feature-settings 'kern' 1
   font-kerning normal
 
-h1, h2, h3, h4, h5, h6, p, a
-  font-size x1 !important
+h1, h2, h3, h4, h5, h6, p, a, ul
   margin x1 0
 
 h1, h2, h3, h4, h5, h6
   color hue-5
   margin 1x 0 2x 0
+  font-family headingstack
+  font-weight 400
+  line-height 1.2
 
 h1:before
   content '# '
@@ -107,7 +111,7 @@ blockquote
   font-style italic
   :before
     content '> '
-    margin-left -1.1em
+    margin-left -1em
 
   p
     display inline
@@ -117,10 +121,11 @@ p
 
 a
   color hue-2
-  :visited
-    color hue-4
+  // :visited
+  //   color hue-4
   :hover
     color hue-1
+    text-decoration line-through
 
 strong
   color hue-6
@@ -131,9 +136,6 @@ em
   color hue-3
   :before, :after
     content '*'
-
-ul
-  margin 0
 
 label
   color duskriver
@@ -166,11 +168,11 @@ hr
 
 .full-width
   background syntax-gutter
-  margin x1 (-1 * x50) 0
-  padding x1 x50 x25
+  margin 0 (-1 * x50)
+  padding x25 0
 
 .container
-  max-width 960px
+  max-width 512px
   margin 0 auto
 
 .hidden

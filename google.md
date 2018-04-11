@@ -2,7 +2,7 @@
 
 > I deleted my Google data [except Gmail] and paused all future tracking. I no longer use Chrome and have no Google apps installed on any of my devices. This includes native Google Doc apps, Google Drive, etc. I also, no longer use any email client to automatically pull new email from Gmail. If I need to access to anything Google related, I do it through a browser I can trust.
 
-[Skip to guide](#guide) | [Skip to navigation](#nav)
+<!-- [Skip to guide](#guide) | [Skip to navigation](#nav)
 
 <hr>
 
@@ -12,9 +12,9 @@ With all the negative news Facebook has been getting it was easy to be ignorant 
 
 <span id="guide"></span> [Back to top](#top) | [Skip to navigation](#nav)
 
-<hr>
+<hr> -->
 
-## Steps to detox your Google data [#guide](#guide)
+## Steps to detox your Google data
 
 1. First things first: download your data [https://takeout.google.com](https://takeout.google.com)
 
@@ -57,3 +57,5 @@ With all the negative news Facebook has been getting it was easy to be ignorant 
 9. If you're feeling super brave you could Delete your Google Account completely [https://myaccount.google.com/deleteaccount](https://myaccount.google.com/deleteaccount)
 
 10. You're done. Have a hug 🤗
+
+[What do you want to delete now?](#nav)

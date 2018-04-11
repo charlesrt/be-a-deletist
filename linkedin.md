@@ -2,7 +2,7 @@
 
 > I download my LinkedIn data and discovered I suddenly had the email addresses of everyone I was connected to. I didn't know this privacy permission was enabled by default. Did you? I deleted my LinkedIn account.
 
-[Skip to guide](#guide) | [Skip to navigation](#nav)
+<!-- [Skip to guide](#guide) | [Skip to navigation](#nav)
 
 <hr>
 
@@ -24,9 +24,9 @@ If you ever find yourself in a position where you are looking for work you can s
 
 <span id="guide"></span> [Back to top](#top) | [Skip to navigation](#nav)
 
-<hr>
+<hr> -->
 
-## Steps to delete LinkedIn [#guide](#guide)
+## Steps to delete LinkedIn
 
 1. First things first: access and download your account data [https://www.linkedin.com/help/linkedin/answer/50191/accessing-your-account-data?lang=en](https://www.linkedin.com/help/linkedin/answer/50191/accessing-your-account-data?lang=en)
 
@@ -35,3 +35,5 @@ If you ever find yourself in a position where you are looking for work you can s
 3. If you're ready: you could close your account; permanently deleting your profile and removing access to all your LinkedIn information [https://www.linkedin.com/help/linkedin/answer/63/closing-your-linkedin-account?lang=en](https://www.linkedin.com/help/linkedin/answer/63/closing-your-linkedin-account?lang=en). There is some baiting to try and get you to stay but don't fall for it. You've got your data downloaded. You can think of more creative ways to make use of those endorsements and recommendations.
 
 4. You're done. Have a hug 🤗
+
+[What do you want to delete now?](#nav)

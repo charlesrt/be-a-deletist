@@ -2,9 +2,9 @@
 
 > I still use WhatsApp despite my opinion of Facebook. This is mostly because my wife uses it and it's our primary method of communicating [when we're not in the same room. Though sometimes still in the same house.]
 
-[Skip to navigation](#nav)
+<!-- [Skip to navigation](#nav)
 
-<hr>
+<hr> -->
 
 ## End-to-end encryption is the "feature" you're looking for
 

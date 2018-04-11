@@ -2,9 +2,9 @@
 
 > I use a combination of Brave and Firefox Focus.
 
-[Skip to navigation](#nav)
+<!-- [Skip to navigation](#nav)
 
-<hr>
+<hr> -->
 
 ## Do not track
 

@@ -1,0 +1,25 @@
+footer.container
+  :markdown
+    ## Becoming a deletist
+
+    I am [Charles Reynolds-Talbot](https://twitter.com/charles_rt) and I am a deletist. This website is a series of advice and delete-guides on how to reduce your digital-data footprint, become anonymous and make more time.
+
+    [Read more about my personal journey to deletism on Medium.com](https://medium.com/delete-the-excess)
+
+    Sign up for the newsletter to join the conversations around deletism, ethical design and privacy. Just one email once a month (sometimes less). No spam. No data sharing.
+
+  form(name="subscribe" netlify-honeypot="bot-field" method="POST" netlify)
+    p.hidden
+      label Don’t fill this out if you're human:
+      input(name="bot-field")
+    p
+      label Your email address
+      input(type="email" name="email")
+      button(type="submit") Join
+
+    :markdown
+      [Back to top](#top) | [Back to homepage](/)
+
+      Made by [@charles\_rt](https://twitter.com/charles_rt). Code on [Github](https://github.com/charlesrt/delete-the-excess).
+
+      This website does not track you.

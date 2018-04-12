@@ -1,0 +1,201 @@
+// Config -----------------------------------
+syntax-hue =          220;
+syntax-saturation =   13%;
+syntax-brightness =   18%;
+
+// Brand colors ------------------------------------
+facebook-blue = #3B5998
+google-blue = #4285F4
+linkedin-blue = #0077B5
+reddit-red = #FF4500
+instagram-pink = #E4405F
+whatsapp-green = #25D366
+
+// Base colors -----------------------------------
+white = white
+black = black
+background = hsla(black, 8%)
+foreground = hsla(black, 92%)
+middleground = hsla(black, 56%)
+divider = hsla(black, 16%)
+primary = facebook-blue
+secondary = google-blue
+accent = instagram-pink
+
+// Fonts -----------------------------------
+
+fontstack = -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            "Fira Sans",
+            "Droid Sans",
+            "Helvetica Neue",
+            sans-serif
+
+font-size = 1em //16px
+
+size-4x = (font-size * 4) //128px
+size-3x = (font-size * 3) //64px
+size-2x = (font-size * 2) //32px
+size-1x = font-size //16px
+size-half = (font-size / 2) //8px
+size-quarter = (font-size / 4) //4px
+
+// Begin -----------------------------------
+
+body
+  font 400 size-1x / 1.6 fontstack
+  color foreground
+  background-color background
+  margin 0 0 0 0
+  padding 0 size-1x
+  text-size-adjust 100%
+  font-feature-settings 'kern' 1
+  font-kerning normal
+
+h1, h2, h3, h4, h5, h6, p, a
+  margin size-1x 0
+
+h1, h2, h3, h4, h5, h6
+  color primary
+  font-weight 700
+  line-height 1.2
+
+h1
+  font-size size-4x
+  margin size-half 0
+  @media (max-width: 512px)
+    font-size size-3x
+
+
+blockquote
+  border-left size-quarter solid accent
+  color middleground
+  padding-left size-1x
+  font-style italic
+
+  p
+    display inline
+
+p
+  margin size-1x 0
+
+a
+  color secondary
+  white-space pre-wrap /* css-3 */
+  white-space -moz-pre-wrap /* Mozilla, since 1999 */
+  white-space -pre-wrap /* Opera 4-6 */
+  white-space -o-pre-wrap /* Opera 7 */
+  word-wrap break-word /* Internet Explorer 5.5+ */
+  :hover
+    color primary
+    text-decoration line-through
+
+label
+  display block
+  margin 0 0 size-quarter
+
+input
+  width 50%
+  background background
+  border none
+  color foreground
+  font-size size-1x
+  padding size-half
+
+button
+  background secondary
+  color white
+  border none
+  font-size size-1x
+  padding size-half size-1x
+  margin-left size-1x
+
+button:hover
+  background primary
+
+hr
+  border none
+  border-top 2px dashed divider
+  // @media (min-width: (512px + (8 * 16px)))
+  //   margin size-half (-1 * size-4x)
+
+nav
+  ul
+    list-style none
+    text-align center
+    padding 0
+    margin size-1x 0 0
+  li
+    margin 0 size-half size-1x
+    display inline-block
+    .title
+      position absolute
+      margin-left -9999px
+      visibility hidden
+
+footer
+  color middleground
+  border-top 2px solid divider
+
+.hero.full-width
+  .container
+    @media (min-width: 512px)
+      margin size-4x auto
+
+
+.full-width
+  background primary
+  margin 0 (-1 * size-1x)
+  padding size-quarter 0
+  h1, h2, h3, h4, h5, h6, p, a, ol, ul, blockquote
+    color white
+
+.container
+  max-width 512px
+  margin 0 auto
+  padding 0 size-1x
+
+.hidden
+  display none
+
+.center
+  text-align center
+
+// Icons -----------------------------------
+.icon
+  display inline-block
+  width size-2x
+  height size-2x
+  svg
+    width (@width / 2)
+    height (@height / 2)
+    margin size-half
+    vertical-align middle
+    path
+      fill white
+  :hover
+    svg path
+      fill none
+
+.icon--facebook
+  background facebook-blue
+
+.icon--google
+  background google-blue
+
+.icon--linkedin
+  background linkedin-blue
+
+.icon--reddit
+  background reddit-red
+
+.icon--instagram
+  background instagram-pink
+
+.icon--whatsapp
+  background whatsapp-green

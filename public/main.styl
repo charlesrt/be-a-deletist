@@ -14,7 +14,7 @@ whatsapp-green = #25D366
 // Base colors -----------------------------------
 white = white
 black = black
-background = hsla(black, 8%)
+background = hsla(black, 1%)
 foreground = hsla(black, 92%)
 middleground = hsla(black, 56%)
 divider = hsla(black, 16%)
@@ -102,7 +102,7 @@ label
 input
   width 50%
   background background
-  border none
+  border 2px solid secondary
   color foreground
   font-size size-1x
   padding size-half
@@ -110,13 +110,14 @@ input
 button
   background secondary
   color white
-  border none
+  border 2px solid secondary
   font-size size-1x
   padding size-half size-1x
   margin-left size-1x
 
 button:hover
   background primary
+  border 2px solid primary
 
 hr
   border none
@@ -199,3 +200,7 @@ footer
 
 .icon--whatsapp
   background whatsapp-green
+
+::selection
+  color white
+  background primary

@@ -1,14 +1,6 @@
 # Delete Reddit
 
-<!-- > Reddit can be fun. It can also be time consuming as there is so much content. Delete it to take back time. -->
-
-<!-- [Skip to navigation](#nav)
-
-<hr> -->
-
 ## How to delete your account
-
-<!-- So — I don't hold my Reddit data so close to my heart so I'm not too concerned with losing my posts. Let me know if you are and I'll dig into how to download data. -->
 
 Deleting your account won't delete your posts or comments. If you want to do this you'll have to do it manually. **Once you delete your account you will not be able to go back and delete your posts or comments.**
 

@@ -4,9 +4,9 @@ html
     != partial("_partial/head")
     link(rel="stylesheet" href="/main.css")
   body
-  != partial("_partial/header")
-  .container
-    != yield
-    hr
-    != partial("_partial/nav")
-  != partial("_partial/footer")
+    != partial("_partial/header")
+    .container
+      != yield
+      hr
+      != partial("_partial/nav")
+      != partial("_partial/footer")

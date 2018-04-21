@@ -1,11 +1,5 @@
 # Encrypted messaging
 
-<!-- > I still use WhatsApp despite my opinion of Facebook. This is mostly because my wife uses it and it's our primary method of communicating [when we're not in the same room. Though sometimes still in the same house.] -->
-
-<!-- [Skip to navigation](#nav)
-
-<hr> -->
-
 ## End-to-end encryption is the “feature” you're looking for
 
 [WhatsApp](https://www.whatsapp.com/) has end-to-end encryption which gets a big thumbs up 👍. This means that the content of your messages can only be seen by you—the sender—and the person(s) you send it to. The content can't be seen by WhatsApp. However, they can see all the metadata. Metadata means things like:

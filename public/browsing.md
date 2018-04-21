@@ -1,11 +1,5 @@
 # Focused browsing
 
-<!-- > I use a combination of Brave and Firefox Focus. -->
-
-<!-- [Skip to navigation](#nav)
-
-<hr> -->
-
 ## Do not track
 
 You can go to extremes in this area with Virtual Private Networks which we may dig into in the future. For the average person just changing your default browser is a baby step in the right direction.

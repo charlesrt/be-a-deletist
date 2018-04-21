@@ -1,16 +1,6 @@
 # Private email
 
-<!-- > I use ProtonMail for when I actually need to email a human (rarely), and I've moved across to iCloud for day-to-day account management, with a pinch of Maildrop thrown in for those terrible throwaway moments. -->
-
-<!-- [Skip to navigation](#nav)
-
-<hr> -->
-
 ## You've got mail
-
-<!-- If you've read the other sections you know that I've kept a hold of Gmail for now as an archive. Plus, I used it as the login for all my accounts so I'm slowly migrating over to my iCloud email which I've never used.
-
-I'm guessing Apple will become a problem at some point but I'm happy with them having my data right now. Whereas Facebook and Google are amassing my data to hyper-target me with ads, Apple is likely using it to better sell me their hardware and software that I'm already bought in to. I'm cool with that for now. -->
 
 You could use one email for everything or you could use a combination of different email services for different purposes.
 

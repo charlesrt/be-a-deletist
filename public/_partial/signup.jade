@@ -1,0 +1,10 @@
+#signup.full-width
+  .container
+    h2 Become a Deletist 
+    p Join the conversation about deletism, ethical design, privacy and making time. Just one email once a week (sometimes less). No spam. No data sharing.
+    form#revue-form(action='https://www.getrevue.co/profile/deletist/add_subscriber', method='post', name='revue-form')
+      label(for='member_email') Your email address
+      input#member_email.revue-form-field(type='email', name='member[email]')
+      button(type='submit', value='Subscribe', name='member[subscribe]') Join
+    :markdown
+      *I use Revue for the newsletter. Check out [previous issues](https://www.getrevue.co/profile/deletist). You will need to confirm your email address to prevent spam.*

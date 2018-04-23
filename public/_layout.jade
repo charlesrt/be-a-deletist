@@ -5,8 +5,9 @@ html
     link(rel="stylesheet" href="/main.css")
   body
     != partial("_partial/header")
-    .container
+    main(class="#{ current.path[0] }").container
       != yield
-      hr
+  != partial("_partial/signup") 
+    .container
       != partial("_partial/nav")
-      != partial("_partial/footer")
+    != partial("_partial/footer")

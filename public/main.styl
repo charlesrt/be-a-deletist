@@ -11,17 +11,19 @@ reddit-red = #FF4500
 instagram-pink = #E4405F
 whatsapp-green = #25D366
 twitter-blue = #1DA1F2
+producthunt-orange = #DA552F
+snapchat-yellow = #FFFC00
 
 // Base colors -----------------------------------
 white = #FFFFFF
 black = #000000
 background = white
-foreground = #101010
-middleground = #696969
-divider = #EEEEEE
-primary = facebook-blue
-secondary = google-blue
-accent = instagram-pink
+foreground = black // was #101010
+middleground = black // was #696969
+divider = black // was #EEEEEE
+primary = black
+secondary = white
+accent = white
 
 // Fonts -----------------------------------
 
@@ -50,6 +52,10 @@ size-quarter = (font-size / 4) //4px
 
 // Begin -----------------------------------
 
+::selection
+  color white
+  background black
+
 body
   font 400 size-1x / 1.6 fontstack
   color foreground
@@ -64,26 +70,35 @@ h1, h2, h3, h4, h5, h6, p, a
   margin size-1x 0
 
 h1, h2, h3, h4, h5, h6
-  color black
-  font-weight 700
+  font-weight 900
   line-height 1.2
+  text-transform uppercase
 
 h1
   background black
   color white
   font-size size-4x
   margin size-1x 0
+  padding size-half
   text-transform uppercase
   text-align center
   @media (max-width: 414px)
     font-size size-3x
+
+h2
+  width 80%
+  :after
+    content ""
+    display block
+    height 8px
+    margin size-quarter 0
+    background-color black
 
 blockquote
   border-left size-quarter solid accent
   color middleground
   padding-left size-1x
   font-style italic
-
   p
     display inline
 
@@ -91,41 +106,69 @@ p
   margin size-1x 0
 
 a
-  color primary
+  color inherit
+  font-weight 700
   white-space pre-wrap /* css-3 */
   white-space -moz-pre-wrap /* Mozilla, since 1999 */
   white-space -pre-wrap /* Opera 4-6 */
   white-space -o-pre-wrap /* Opera 7 */
   word-wrap break-word /* Internet Explorer 5.5+ */
+  :after
+    content ""
+    display inline
+    height 4px
+    margin size-quarter 0
+    background-color black
   :hover
-    color darken(@color, 16%)
     text-decoration line-through
+    color white
+    background black
 
 ul, ol
   padding-left: 1.6em
+
+ol
+  list-style none
+  counter-reset item
+  > li
+    font-size font-normal
+    margin size-1x 0
+    :before
+      content counter(item) ""
+      counter-increment item
+      display inline-block
+      font-weight 700
+      font-style italic
+      font-size (font-size * 1.25)
+      width size-1x
+      margin-left -@width
+      vertical-align super
+    > p
+      display inline
 
 label
   display block
   margin 0 0 size-quarter
 
 input
-  width 50%
-  background background
-  border 2px solid primary
-  color foreground
+  width 80%
+  background black
+  border 2px solid white
+  color white
   font-size size-1x
   padding size-half
 
 button
-  background primary
-  color white
+  background white
+  color black
   border 2px solid @background
   font-size size-1x
   padding size-half size-1x
-  margin-left size-1x
+  margin-left -2px
   :hover
-    background darken(@background, 16%)
-    border 2px solid darken(@background, 16%)
+    background black
+    border 2px solid white
+    color white
 
 hr
   border none
@@ -134,47 +177,131 @@ hr
 nav
   ul
     list-style none
-    text-align center
     padding 0
-    margin size-1x 0 0
-  li
-    margin 0 size-half size-1x
-    display inline-block
-    .title
-      position absolute
-      margin-left -9999px
-      visibility hidden
+  a
+    text-decoration none
 
-footer
-  color middleground
-  border-top 2px solid divider
-
-.full-width
+header, footer, .full-width
   background black
+  color white
   margin 0 (-1 * size-1x)
-  padding size-quarter 0
-  &.facebook
-    background facebook-blue
-  &.google
-    background google-blue
-  &.linkedin
-    background linkedin-blue
-  &.reddit
-    background reddit-red
-  &.instagram
-    background instagram-pink
-  &.whatsapp
-    background whatsapp-green
-  &.twitter
-    background twitter-blue
-  .container
+  padding size-1x
+  nav
+    max-width 1242px
     h1, h2, h3, h4, h5, h6, p, a, ol, ul, blockquote
-      color white
+      color @color
     a
       font-weight 700
       text-decoration none
       :hover
         text-decoration line-through
+    ul
+      float right
+      display inline-block
+      margin 0
+      padding 0
+      list-style none
+      @media (max-width: 960px)
+        float none
+        display block
+      li
+        margin 0 size-2x 0 0
+        display inline-block
+        text-align left
+        :last-of-type
+          margin 0
+        a
+          font-weight 400
+
+main
+  &.facebook
+    h1
+      background facebook-blue
+  &.google
+    h1
+      background google-blue
+  &.linkedin
+    h1
+      background linkedin-blue
+  &.reddit
+    h1
+      background reddit-red
+  &.instagram
+    h1
+      background instagram-pink
+  &.whatsapp
+    h1
+      background whatsapp-green
+  &.twitter
+    h1
+      background twitter-blue
+  &.snapchat
+    h1
+      background snapchat-yellow
+
+nav#guides
+  ul
+    list-style none
+    padding 0
+    margin size-1x 0 0
+    > li
+      margin size-1x 0
+      display block
+      padding size-1x
+      &.facebook
+        background facebook-blue
+      &.google
+        background google-blue
+      &.linkedin
+        background linkedin-blue
+      &.reddit
+        background reddit-red
+      &.instagram
+        background instagram-pink
+      &.whatsapp
+        background whatsapp-green
+      &.twitter
+        background twitter-blue
+      &.producthunt
+        background producthunt-orange
+      &.snapchat
+        background snapchat-yellow
+        a
+          color black
+        :hover
+          a
+            color white
+        .icon svg path
+          fill black
+        :hover
+          .icon svg path
+            fill white
+      &.missing
+        background white
+        a
+          color black
+        :hover
+          a
+            color white
+      a
+        color white
+        margin 0
+        display block
+        text-decoration none
+      span.icon
+        display block
+      span.title
+        font-size size-3x
+        font-weight 900
+        text-transform uppercase
+      span.desc
+        display block
+        font-weight 400
+      :hover
+        background black
+        color white
+        .icon
+          background black
 
 .container
   max-width 736px
@@ -233,6 +360,5 @@ footer
 .icon--twitter
   background twitter-blue
 
-::selection
-  color white
-  background primary
+.icon--producthunt
+  background producthunt-orange

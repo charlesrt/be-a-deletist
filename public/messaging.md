@@ -15,7 +15,7 @@
 And, because it's WhatsApp and they're part of the Facebook Group, guess who they share their data with. That's right.
 
 Try these alternatives:
- - [Signal](https://signal.org) is meant to be the most secure.
- - [Wire](https://wire.com/en/) is also meant to be super secure and looks to be more aimed at the work environment.
- - [Antidote](https://antidote.im) for iOS and [Antox](https://github.com/Antox/Antox) for Android are clients for [Tox](https://tox.chat) which is a free and Open Source messaging project that is encrypted and distributed to keep all your conversations safe.
- - [Telegram](https://telegram.org) uses end-to-end encryption but apparently it's their own special flavour and has some flaws. Read more in [Why I told my friends to stop using WhatsApp and Telegram](https://medium.freecodecamp.org/why-i-asked-my-friends-to-stop-using-whatsapp-and-telegram-e93346b3c1f0).
+- [Wire](https://wire.com/en/) is also meant to be super secure and looks to be more aimed at the work environment.
+- [Signal](https://signal.org) is meant to be the most secure.
+- [Antidote](https://antidote.im) for iOS and [Antox](https://github.com/Antox/Antox) for Android are clients for [Tox](https://tox.chat) which is a free and Open Source messaging project that is encrypted and distributed to keep all your conversations safe.
+- ~~[Telegram](https://telegram.org) uses end-to-end encryption but apparently it's their own special flavour and has some flaws.~~ We no longer recommend Telegram. Read more in [Why I told my friends to stop using WhatsApp and Telegram](https://medium.freecodecamp.org/why-i-asked-my-friends-to-stop-using-whatsapp-and-telegram-e93346b3c1f0).

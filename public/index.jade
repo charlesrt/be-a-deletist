@@ -4,17 +4,20 @@ html
     != partial("_partial/head")
     link(rel="stylesheet" href="/main.css")
   body
-  .hero.full-width
-    .container
+    != partial("_partial/header")
+    main.container
       h1.center Deletist
       p Noun&nbsp;
         em /dɪˈliːtɪst/
 
       :markdown
-        1. a person who **deletes their data in the quest for anonymity, privacy and minimalism**: paving the way for ethical decentralised systems.
-
-      p.center
-        a(href="/") #BeADeletist 🚫
-  .container
-    != partial("_partial/nav")
+        1. a person who **deletes their data in the quest for anonymity, privacy and safety online**: paving the way for ethical decentralised systems.
+        
+        2. a person who **values their time and seeks to make more**: deleting distractions.
+        
+        3. a person who sees **minimalism as the phyiscal synonym to digital deletism**: keeping the value, deleting the excess.
+        
+    != partial("_partial/signup") 
+    .container   
+      != partial("_partial/nav")
     != partial("_partial/footer")

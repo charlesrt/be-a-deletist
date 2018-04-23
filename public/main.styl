@@ -209,7 +209,9 @@ header, footer, .full-width
         display inline-block
         text-align left
         :last-of-type
-          margin 0
+          margin-right 0
+        @media (max-width: 960px)
+          margin-top size-half
         a
           font-weight 400
 
@@ -290,6 +292,8 @@ nav#guides
         text-decoration none
       span.icon
         display block
+        svg
+          margin-left 0
       span.title
         font-size size-3x
         font-weight 900

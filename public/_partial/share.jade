@@ -1,0 +1,28 @@
+nav#share
+  h3.center Share the movement #BeADeletist
+  ul
+    li
+      a(href='http://twitter.com/share?url=#{ uri }&text=#{ description }&via=#{ twitter }' target='_blank')
+        span.icon.icon--twitter
+          include /icons/twitter.svg 
+    li
+      a(href='http://www.facebook.com/sharer/sharer.php?u=#{ uri }' target='_blank')
+        span.icon.icon--facebook
+          include /icons/facebook.svg 
+    li
+      a(href='http://www.linkedin.com/shareArticle?url=#{ uri }&title=#{ title }&summary=#{ description }' target='_blank')
+        span.icon.icon--linkedin
+          include /icons/linkedin.svg 
+    li
+      a(href='https://plus.google.com/share?url=#{ uri }' target='_blank')
+        span.icon.icon--google
+          include /icons/google.svg 
+    li
+      a(href='http://reddit.com/submit?url=#{ uri }&title=#{ title }' target='_blank')
+        span.icon.icon--reddit
+          include /icons/reddit.svg 
+    li
+      a(href='mailto:?subject=#{ title }&body=#{ description }' target='_blank')
+        span.icon
+          include /icons/mail.svg 
+          

@@ -3,6 +3,39 @@
     "layout": false
   },
   "facebook": {
-    "title": "hello"
+    "title": "Delete Facebook",
+    "description": "MDP: Most Deleted Player",
+    "uri": "https://deletist.xyz/facebook"
+  },
+  "google": {
+    "title": "Delete Google",
+    "description": "Don't be ignorant to Google. They have just as much if not more data on you than Facebook. There are alternatives.",
+    "uri": "https://deletist.xyz/google"
+  },
+  "linkedin": {
+    "title": "Delete LinkedIn",
+    "description": "Constant use of dark patterns in an attempt to harvest more data from your contacts.",
+    "uri": "https://deletist.xyz/linkedin"
+  },
+  "twitter": {
+    "title": "Delete Twitter",
+    "description": "Twitter can be a dark place full of angry people.",
+    "uri": "https://deletist.xyz/twitter"
+  },
+  "instagram": {
+    "title": "Delete Instagram",
+    "description": "Instagram is pretty and you can go private but it's still distracting and it's part of the Facebook Group.",
+    "uri": "https://deletist.xyz/instagram"
+  },
+  "whatsapp": {
+    "title": "Delete Whatsapp",
+    "description": "To be fair, Whatsapp is pretty secure. It's unfortunate then that they're part of the Facebook Group and share metadata.",
+    "uri": "https://deletist.xyz/whatsapp"
+  },
+  "reddit": {
+    "title": "Delete Reddit",
+    "description": "A rabbit hole of distraction. Could get bumped off the list at any moment.",
+    "uri": "https://deletist.xyz/reddit"
   }
+
 }

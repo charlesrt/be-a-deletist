@@ -7,6 +7,7 @@ html
     != partial("_partial/header")
     main(class="#{ current.path[0] }").container
       != yield
+      != partial("_partial/share")              
   != partial("_partial/signup") 
     .container
       != partial("_partial/nav")

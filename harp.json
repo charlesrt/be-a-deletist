@@ -2,6 +2,9 @@
   "globals": {
     "title": "Be a Deletist",
     "name" : "Charles Reynolds-Talbot",
-    "uri"  : "https://deletist.xyz/"
+    "uri"  : "https://deletist.xyz/",
+    "description": "Advice and guides on how to reduce your digital data footprint, become anonymous, and make more time. This is for the privacy conscious, the minimalists and everyone else.",
+    "twitter": "charles_rt",
+    "image": "embed-card.png"
   }
 }

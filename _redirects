@@ -1,3 +1,0 @@
-# Redirect domain aliases to primary domain
-https://delete-the-excess.netlify.com/* https://deletist.xyz/:splat 301!
-http://delete-the-excess.netlify.com/* https://deletist.xyz/:splat 301!

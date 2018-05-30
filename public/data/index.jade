@@ -1,0 +1,65 @@
+- var i_facebook = 1;
+- var i_google = 1;
+- var i_linkedin = 1;
+- var i_twitter = 1;
+- var i_producthunt = 1;
+- var i_snapchat = 1;
+- var i_instagram = 1;
+- var i_medium = 1;
+- var i_whatsapp = 1;
+- var i_reddit = 1;
+
+each val in public.data._contents
+  if val.includes("facebook")
+     - i_facebook++;
+  if val.includes("google")
+    - i_google++;
+  if val.includes("linkedin")
+     - i_linkedin++;
+  if val.includes("twitter")
+    - i_twitter++;
+  if val.includes("producthunt")
+     - i_producthunt++;
+  if val.includes("snapchat")
+    - i_snapchat++;
+  if val.includes("instagram")
+    - i_instagram++;
+  if val.includes("medium")
+    - i_medium++;
+  if val.includes("whatsapp")
+    - i_whatsapp++;
+  if val.includes("reddit")
+    - i_reddit++;
+    
+h1 Delete Data
+p The number of accounts deleted as declared by visitors to Deletist.xyz.
+    
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.facebook(type='submit', value='facebook', name='fields[account]') Delete Facebook [#{i_facebook}]
+    
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.google(type='submit', value='google', name='fields[account]') Delete Google [#{i_google}]
+  
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.linkedin(type='submit', value='linkedin', name='fields[account]') Delete Linkedin [#{i_linkedin}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.twitter(type='submit', value='twitter', name='fields[account]') Delete Twitter [#{i_twitter}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.producthunt(type='submit', value='producthunt', name='fields[account]') Delete Product Hunt [#{i_producthunt}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.snapchat(type='submit', value='snapchat', name='fields[account]') Delete Snapchat [#{i_snapchat}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.instagram(type='submit', value='instagram', name='fields[account]') Delete Instagram [#{i_instagram}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.medium(type='submit', value='medium', name='fields[account]') Delete Medium [#{i_medium}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.whatsapp(type='submit', value='whatsapp', name='fields[account]') Delete Whatsapp [#{i_whatsapp}]
+
+form(action='https://api.staticman.net/v1/entry/charlesrt/be-a-deletist/master', method='post', name='')
+  button.reddit(type='submit', value='reddit', name='fields[account]') Delete Reddit [#{i_reddit}]

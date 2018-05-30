@@ -1,0 +1,15 @@
+[build]
+  command = "npm install -g harp"
+  publish = "www"
+
+[[redirects]]
+  from = "https://delete-the-excess.netlify.com/*"
+  to = "https://deletist.xyz/:splat"
+  status = 301!
+  force = true
+
+[[redirects]]
+  from = "http://delete-the-excess.netlify.com/*"
+  to = "https://deletist.xyz/:splat"
+  status = 301!
+  force = true

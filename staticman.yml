@@ -1,17 +1,16 @@
-# Staticman
-staticman:
- allowedFields: ['account']
- branch: master
- commitMessage: "Staticman deletes data"
- filename: "_{@fields.account}-{@date:YYYY-MM-DD}-{@timestamp}"
- format: json
- generatedFields:
+data:
+  allowedFields: ["account"]
+  branch: "master"
+  commitMessage: "Staticman deletes data"
+  filename: "_{@fields.account}-{@date:YYYY-MM-DD}-{@timestamp}"
+  format: "json"
+  generatedFields:
     date:
       type: date
       options:
         format: "iso8601"
     slug:
       type: slugify
- moderation: false
- path: "public/_data"
- requiredFields: ['account']
+  moderation: false
+  path: "public/data"
+  requiredFields: ['account']

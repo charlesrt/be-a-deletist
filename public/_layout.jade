@@ -7,7 +7,8 @@ html
     main(class="#{ current.path[0] }").container
       != yield
       != partial("_partial/share")              
-  != partial("_partial/signup") 
+    != partial("_partial/signup") 
     .container
       != partial("_partial/nav")
     != partial("_partial/footer")
+    script(src="/local.js")

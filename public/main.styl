@@ -162,11 +162,19 @@ button
   background white
   color black
   border 2px solid @background
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size size-1x
   font-weight 800
   text-transform uppercase
   padding size-half size-1x
   margin-left -2px
+  span.count
+    border-left 1px solid white
+    font-weight 400
+    margin-left size-half
+    padding-left size-half
   &.facebook
     background facebook-blue
     color white
@@ -193,10 +201,26 @@ button
     color white
   &.snapchat
     background snapchat-yellow
+    a
+      color black
+    :hover
+      a
+        color white
+    .icon
+      background transparent
+      svg path
+        fill black
+    :hover
+      .icon svg path
+        fill white
   :hover
     background black
     border 2px solid white
     color white
+    .icon
+      background transparent
+      svg path
+        fill white
 
 hr
   border none
@@ -347,6 +371,13 @@ nav#guides
         color white
         .icon
           background black
+
+#buttons_delete
+  display flex
+  flex-flow row wrap
+  justify-content space-around
+  form
+    margin size-half auto
 
 .container
   max-width 736px

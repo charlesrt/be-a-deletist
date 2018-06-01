@@ -32,44 +32,95 @@ each val in public.data._contents
     - i_reddit++;
     
 h1 Delete Data
-p The number of accounts deleted as declared by visitors to Deletist.xyz.
+p The number of accounts deleted as declared by visitors to Deletist.xyz since 1 June 2018.
+
+div#buttons_delete
     
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.facebook(type='submit', value='facebook', name='fields[account]') Delete Facebook [#{i_facebook}]
-    
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.google(type='submit', value='google', name='fields[account]') Delete Google [#{i_google}]
-  
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.linkedin(type='submit', value='linkedin', name='fields[account]') Delete Linkedin [#{i_linkedin}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.facebook(type='submit', value='facebook', name='fields[account]')
+      span.icon.icon--facebook
+        include /icons/facebook.svg
+      | Delete
+      span.count #{i_facebook}
+      
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.google(type='submit', value='google', name='fields[account]')
+      span.icon.icon--google
+        include /icons/google.svg
+      | Delete
+      span.count #{i_google}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.twitter(type='submit', value='twitter', name='fields[account]') Delete Twitter [#{i_twitter}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.linkedin(type='submit', value='linkedin', name='fields[account]')
+      span.icon.icon--linkedin
+        include /icons/linkedin.svg
+      | Delete
+      span.count #{i_linkedin}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.producthunt(type='submit', value='producthunt', name='fields[account]') Delete Product Hunt [#{i_producthunt}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.twitter(type='submit', value='twitter', name='fields[account]')
+      span.icon.icon--twitter
+        include /icons/twitter.svg
+      | Delete
+      span.count #{i_twitter}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.snapchat(type='submit', value='snapchat', name='fields[account]') Delete Snapchat [#{i_snapchat}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.producthunt(type='submit', value='producthunt', name='fields[account]')
+      span.icon.icon--producthunt
+        include /icons/producthunt.svg
+      | Delete
+      span.count #{i_producthunt}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.instagram(type='submit', value='instagram', name='fields[account]') Delete Instagram [#{i_instagram}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.snapchat(type='submit', value='snapchat', name='fields[account]')
+      span.icon.icon--snapchat
+        include /icons/snapchat.svg
+      | Delete
+      span.count #{i_snapchat}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.medium(type='submit', value='medium', name='fields[account]') Delete Medium [#{i_medium}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.instagram(type='submit', value='instagram', name='fields[account]')
+      span.icon.icon--instagram
+        include /icons/instagram.svg
+      | Delete
+      span.count #{i_instagram}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.whatsapp(type='submit', value='whatsapp', name='fields[account]') Delete Whatsapp [#{i_whatsapp}]
+  //- form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+  //-   input(type='hidden', name='options[path]', value='#{current.path}')
+  //-   button.medium(type='submit', value='medium', name='fields[account]')
+  //-     span.icon.icon--medium
+  //-       include /icons/medium.svg
+  //-     | Delete
+  //-     span.count #{i_medium}
 
-form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
-  input(type='hidden', name='options[path]', value='#{current.path}')
-  button.reddit(type='submit', value='reddit', name='fields[account]') Delete Reddit [#{i_reddit}]
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.whatsapp(type='submit', value='whatsapp', name='fields[account]')
+      span.icon.icon--whatsapp
+        include /icons/whatsapp.svg
+      | Delete
+      span.count #{i_whatsapp}
+
+  form(action='https://api.staticman.net/v2/entry/charlesrt/be-a-deletist/master/data', method='post', name='')
+    input(type='hidden', name='options[path]', value='#{current.path}')
+    input(type='hidden', name='options[redirect]', value='https://deletist.xyz/data/')
+    button.reddit(type='submit', value='reddit', name='fields[account]')
+      span.icon.icon--reddit
+        include /icons/reddit.svg
+      | Delete
+      span.count #{i_reddit}
